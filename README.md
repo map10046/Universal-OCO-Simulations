@@ -1,7 +1,7 @@
 # Universal OCO Simulations
  A base implementation of "A simple yet Universal Strategy for Online Convex Optimization" (Zhang et. al. 2022) with some simple examples.
 
-Problems are specified with a domain in the form $\\{x:f(x)<= \ell\\}$, for a convex function $f$ and vector of levels $\ell$. In the [domain visualization notebook](Notebooks/domain_vizualization.ipynb), some examples of sets are provided and features like projection are shown. 
+Problems are specified with a domain in the form $\\{x:f(x)<= \ell\\}$, for a convex function $f$ and vector of levels $\ell$. In the [domain visualization notebook](Notebooks/domain_visualization.ipynb), some examples of sets are provided and features like projection are shown. 
 
 In the [gradient descent notebook](Notebooks/gradient_descent.ipynb), a simple online convex optimization (OCO) problem is set up where the function is given as $f_t(x) =f(t,x)$ for convience. A comparison of projected subgradient descent (PSGD) with default steps and steps under the strong convexity assumption are shown, although the difference is minimal considering the simplicity of the example. 
 
